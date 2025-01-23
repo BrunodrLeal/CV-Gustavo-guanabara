@@ -1,0 +1,31 @@
+@charset "UTF -8";
+body {
+    font-family: Arial, sans-serif;
+}
+body 
+{
+background-color: #f0f0f0;
+}
+main {
+    background-color: white;/*essa função seleciona somente onde está o texto com a cor branca ou a cor que você queira*/
+    border-radius:  10px;  /* a borda do background fica arredondada*/
+    box-shadow: 10px 10px 15px rgba(61, 61, 61, 0.5); /*deixa uma sombra no texto*/
+    width: 1000px; /* o tamanho dessa área*/
+    padding: 10px; /* deixa a borda mais gorda, deixando a visulização mais bonita*/
+    margin: auto /*deixa o texto no meio da tela*/}
+p {
+    text-align: justify;
+
+}
+h1 {
+    color:#ca8114;
+    text-align: 10px;
+    text-shadow: 2px 2px 2px rgba(61, 61, 61, 0.5);
+  
+}
+h1 {
+    color : #612222;
+}
+h2 {
+    color:#2c3f3d
+}

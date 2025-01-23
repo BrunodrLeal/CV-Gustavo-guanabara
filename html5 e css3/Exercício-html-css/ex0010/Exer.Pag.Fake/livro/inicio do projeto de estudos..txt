@@ -1,0 +1,66 @@
+inicio do projeto de estudos.
+
+estudos git 23/11/2024 pelo canal Código Fonte TV.
+ 
+Codigos Git
+
+git init para iniciar tudo.
+_________________________________________________________________________________________________
+
+Como adicionar arquivos ao controle de versão.
+ 
+git add . para adicionar todos os arquivos ou adicionar um por um, que não é nada prático.
+git status para verificar como estão os arquivos, se foram alterados ou não.
+_________________________________________________________________________________________________
+
+
+Como criar versões do código com commit
+
+git commit -m "colocar oque foi feito"
+oque foi criado para esse projeto foi o "COMMIT 1"
+________________________________________________________________________________________________
+
+Como Enviar alterações usando git push
+
+git push  
+Envia todos os seus arquivos para o GitHub. foi feito com sucesso. 
+________________________________________________________________________________________________
+
+Ciclo de atualização de código
+
+criando uma nova versão com o código
+
+git commit -m "oque foi alterado"
+ e depois
+Git Push
+ 
+Executado com sucesso.
+______________________________________________________________________________________________
+
+Como Verificar Histórico de atualizações
+
+Comando: git reflog a primeira é sempre a mais atual
+
+como voltar a versão anterior
+
+Git reset --hard mais o id da versão
+cada empresa usa essas versões de formas diferentes. checar com o superior antes de fazer algo errado.
+_______________________________________________________________________________________________________
+
+Oque são Branches e como criar uma.
+
+são como locais para armazenamento dos códigos.
+sempre tem uma principal e as outras que são testadas  e depois são alocadas a principal com novas funcionalidades ou corrigir um bag. essas são chamas de paralelas.
+
+comando usado: git merge
+para criar outra branch: git branch ( nome ) geralmente é staging
+teste 1234
+
+Bruno dos reis leal teste 4
+tentativa 
+
+Obs: o Git Merge é para unir as versões. trazer informações de outras branches para a principal. resolvendo os problemas ou novas funcionalidades. 
+Como executar: você tem que ir para a branch principal e colocar o condigo: git merge staging ou nome da branch.
+
+para trocar de branch usada atualmente: git checkout staging ou ( nome)
+para confirmar : git status

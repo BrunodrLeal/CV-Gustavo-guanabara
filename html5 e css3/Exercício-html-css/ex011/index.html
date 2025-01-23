@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <P>Tente abrir esse site em vários dispositivos ou simplesmente aumente e diminua o tamanho do seu navegador.</P>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/pequena.png" 
+        type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/media.png"
+        type="image/png">
+        <img src="imagem/grande.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Louis Adrien - Medusa the Mournful.mp3" type="">    </audio>
+</body>
+</html>
