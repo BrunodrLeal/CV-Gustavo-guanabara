@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a { 
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+        }
+
+        a:active {
+            color: rgb(255, 208, 0)
+
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.google.com/maps" target="_blank">google maps</a></li>
+        <li><a href="https://login.clear.com.br/" target="_blank">clear corretora</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+
+    </ul>
+</body>
+</html>
