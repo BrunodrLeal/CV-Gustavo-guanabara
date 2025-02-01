@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -11,13 +11,17 @@
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover
+            background-size: cover;
+            background-attachment: fixed; /* essa opção deixa a imagem fixa */
+            /*shorthand - background 
+            color > image > position > repeat > [size] > attachment: */
+            background: black url(imagens/wallpaper002.jpg) center top no-repeat  fixed;
 
 
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto; 
             border: 2px solid black;
@@ -28,7 +32,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facilis alias! Odit quod eius temporibus soluta commodi, velit accusamus? Dolore, ea temporibus sapiente officiis quae delectus quia doloremque saepe libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas? Neque veniam incidunt veritatis voluptatibus cupiditate molestiae asperiores unde repellendus perferendis, obcaecati facilis rem quas modi ducimus laborum tenetur corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum beatae doloribus cum nesciunt corrupti exercitationem quasi, quidem possimus? Nostrum non in eius ea quaerat, iusto soluta fuga alias consequuntur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facilis alias! Odit quod eius temporibus soluta commodi, velit accusamus? Dolore, ea temporibus sapiente officiis quae delectus quia doloremque saepe libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas? Neque veniam incidunt veritatis voluptatibus cupiditate molestiae asperiores unde repellendus perferendis, obcaecati facilis rem quas modi ducimus laborum tenetur corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum beatae doloribus cum nesciunt corrupti exercitationem quasi, quidem possimus? Nostrum non in eius ea quaerat, iusto soluta fuga alias consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facilis alias! Odit quod eius temporibus soluta commodi, velit accusamus? Dolore, ea temporibus sapiente officiis quae delectus quia doloremque saepe libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas? Neque veniam incidunt veritatis voluptatibus cupiditate molestiae asperiores unde repellendus perferendis, obcaecati facilis rem quas modi ducimus laborum tenetur corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum beatae doloribus cum nesciunt corrupti exercitationem quasi, quidem possimus? Nostrum non in eius ea quaerat, iusto soluta fuga alias consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facilis alias! Odit quod eius temporibus soluta commodi, velit accusamus? Dolore, ea temporibus sapiente officiis quae delectus quia doloremque saepe libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas? Neque veniam incidunt veritatis voluptatibus cupiditate molestiae asperiores unde repellendus perferendis, obcaecati facilis rem quas modi ducimus laborum tenetur corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum beatae doloribus cum nesciunt corrupti exercitationem quasi, quidem possimus? Nostrum non in eius ea quaerat, iusto soluta fuga alias consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facilis alias! Odit quod eius temporibus soluta commodi, velit accusamus? Dolore, ea temporibus sapiente officiis quae delectus quia doloremque saepe libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas? Neque veniam incidunt veritatis voluptatibus cupiditate molestiae asperiores unde repellendus perferendis, obcaecati facilis rem quas modi ducimus laborum tenetur corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum beatae doloribus cum nesciunt corrupti exercitationem quasi, quidem possimus? Nostrum non in eius ea quaerat, iusto soluta fuga alias consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facilis alias! Odit quod eius temporibus soluta commodi, velit accusamus? Dolore, ea temporibus sapiente officiis quae delectus quia doloremque saepe libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas? Neque veniam incidunt veritatis voluptatibus cupiditate molestiae asperiores unde repellendus perferendis, obcaecati facilis rem quas modi ducimus laborum tenetur corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum beatae doloribus cum nesciunt corrupti exercitationem quasi, quidem possimus? Nostrum non in eius ea quaerat, iusto soluta fuga alias consequuntur.</p>
     </main>
 </body>
 </html>
