@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundos</title>
+    <style>
+        div.quadrado {
+            display: inline-block; /* esse estilo faz as divs ficarem uma do lado da outra */
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            }
+            div#q1 {
+                background-color: darkgrey
+            }
+
+            div#q2  {
+                background-image: linear-gradient(to top, #f5f102, #ff7504, #fa0303);
+            }
+            div#q3 {
+                background-image: url(imagens/wallpaper002.jpg);
+            }
+            body {
+                background-image: url(imagens/wallpaper001.jpg);
+                width: 1000px;
+                height: 1000px;
+            }
+    </style>
 </head>
 <body>
-    
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
 </body>
 </html>
