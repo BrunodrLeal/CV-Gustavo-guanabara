@@ -1,54 +1,98 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Caveat:wght@400..700&family=Hanalei&family=Monsieur+La+Doulaise&family=Passion+One:wght@400;700;900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Caveat:wght@400..700&family=Hanalei&family=Monsieur+La+Doulaise&family=Passion+One:wght@400;700;900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", serif; /*tutilos*/
+    --fonte3: 'sriracha', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
-}
+    font-size: 1em;
+    }
+
 html, body {
-    background-color: darkgray
+    background-color: darkgray;
+    font-family: var(--fonte1);
 }
+
 header {
     background-color: black;
     color: white;
-    text-align: center  ;
+    text-align: center;
 }
+
 header > h1 {
     padding: 50px; /* text-transform: uppercase; deixa todas as letras maiusculas*/
     font-variant: small-caps; /* cuntinua deixando as letras maiusculas mais as primeiras ficam maiores*/
+    font-family: var(--fonte2);
+    font-size: 10vw;
      
 }
+
 header > p {
     padding-bottom: 50px;
-
 }
 header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
+
 header a:hover, footer a:hover {
     text-decoration: underline;
 }
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color:black
 }
+
 section.imagem {
-    background-color: rgb(100, 100, 100);
+    background-color: rgba(0, 0, 0, 0.363);
     color: white;
+    box-shadow: inset 6px 6px 14px 0px rgba(0, 0, 0, 0.432);
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 section.imagem > p {
-    width: 400px;
-    background-color: rgba(5, 5, 5, 0.322)
+    width: 500px;
+    background-color: rgba(5, 5, 5, 0.39);
+    text-shadow: 1x 1px 8px black;
 }
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+   
+}
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    
+    
+}
+
 footer {
     background-color: black;
     text-align: center;
     color: white;
+    margin-bottom: 10px;
 }
