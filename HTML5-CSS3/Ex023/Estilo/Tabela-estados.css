@@ -1,0 +1,44 @@
+@charset "UTF-8";
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-collapse: collapse;
+    padding: 10px;
+}
+td.cabeca {
+    background-color: darkgray;
+}
+td.cabeca > sup {
+    color: rgba(0, 0, 139, 0.596) ;
+}
+
+td.numeros{
+    text-align: center;
+
+}
+td.estados {
+    color: rgba(0, 0, 139, 0.712);
+}
+td.estimativa {
+    text-align: right;
+}
+td.população {
+    text-align: right;
+}
+td.mudança {
+    color: darkgreen;
+    text-align: center;
+}
+td.variação {
+    text-align: center;
+}
+td.dapop {
+    text-align: center;
+}
+td.Paiscompativel {
+    text-align: center;
+    
+}
