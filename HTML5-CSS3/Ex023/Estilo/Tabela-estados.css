@@ -3,19 +3,28 @@ table {
     border-collapse: collapse;
 }
 
-td {
+td, th {
     border: 1px solid rgba(0, 0, 0, 0.199);
     border-collapse: collapse;
     padding: 10px;
 }
 td.cabeca {
     background-color: darkgray;
+    color: white;
 }
+th.cabeca {
+    background-color: darkgray;
+    color: white;
+}
+
 td.cabeca > sup {
     color: rgba(0, 0, 139, 0.596) ;
 }
+th.cabeca > sup {
+    color: rgba(0, 0, 139, 0.596) ;
+}
 
-td.numeros{
+th.numeros{
     text-align: center;
 
 }
